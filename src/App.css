@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap");
+
+.main {
+  height: 100vh;
+  background-color: #faf8f6;
+  padding: 2rem 12rem;
+  display: flex;
+  flex-direction: column;
+  font-family: "Epilogue", sans-serif;
+  font-weight: 400;
+}
+
+.narrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.req-beta-button-light {
+  padding: 1rem 2rem;
+  border-radius: 5%;
+  background-color: transparent;
+}
+
+.req-beta-button-light:hover {
+  background-color: #172339;
+  border-radius: 5%;
+  color: white;
+}
+
+.req-beta-button-dark {
+  padding: 1rem 2rem;
+  background-color: #172339;
+  border-radius: 5%;
+  border: transparent;
+  color: #faf8f6;
+  align-self: start;
+}
+
+.req-beta-button-dark:hover {
+  padding: 1rem 2rem;
+  border-radius: 5%;
+  background-image: linear-gradient(to right, #a060ff, #cb30e3, #ffa84e);
+  color: #faf8f6;
+  align-self: start;
+}
+
+.main-content {
+  display: flex;
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.pattern-curved {
+  position: absolute;
+  top: 50px;
+  left: 350px;
+  z-index: 11;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+.top-title {
+  font-size: 72px;
+  font-weight: normal;
+  z-index: 10;
+}
+
+.sub-heading {
+  font-size: 18px;
+  line-height: 32px;
+  color: #49566d;
+}
+
+.main-content-image {
+  margin-left: -110px;
+  z-index: 9;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+.main-content-stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  line-height: 56px;
+  font-size: 48px;
+}
+
+.stat-secondary {
+  font-size: 18px;
+  line-height: 32px;
+  color: #49566d;
+}
+.stat1 {
+}
+
+.stat2 {
+}
+
+.stat3 {
+}
+
+.main-content-testimony {
+  display: flex;
+  background-color: #172339;
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+}
+
+.testimony-image {
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+.testimony-text {
+  color: white;
+  margin-right: 4rem;
+  margin-left: 4rem;
+}
+
+.testimony-text-title {
+  margin-top: 8rem;
+  margin-bottom: 6rem;
+  font-size: 48px;
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+.testimony-text-subTitle {
+  font-size: 20px;
+  line-height: 36px;
+  padding: 1rem 6rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 4rem;
+}
+
+.copy-right {
+  color: #49566d;
+  font-size: 15px;
+  line-height: 32px;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  gap: 1.75rem;
+}
+
+.facebook-icon:hover {
+  opacity: 0.6;
+}
+
+.twitter-icon:hover {
+  opacity: 0.6;
+}
+
+.instagram-icon:hover {
+  opacity: 0.6;
+}
