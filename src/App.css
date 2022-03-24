@@ -103,36 +103,33 @@
   line-height: 32px;
   color: #49566d;
 }
-.stat1 {
-}
-
-.stat2 {
-}
-
-.stat3 {
-}
 
 .main-content-testimony {
   display: flex;
   background-color: #172339;
   margin-top: 4rem;
   margin-bottom: 6rem;
+  border-radius: 2%;
 }
 
 .testimony-image {
   margin-left: 6rem;
-  margin-right: 6rem;
+  margin-right: 3rem;
+}
+
+.pattern-curved-small {
+  margin-top: 10rem;
 }
 
 .testimony-text {
   color: white;
   margin-right: 4rem;
-  margin-left: 4rem;
+  margin-left: -2rem;
 }
 
 .testimony-text-title {
   margin-top: 8rem;
-  margin-bottom: 6rem;
+  margin-bottom: 2rem;
   font-size: 48px;
   margin-left: 6rem;
   margin-right: 6rem;
@@ -172,4 +169,78 @@
 
 .instagram-icon:hover {
   opacity: 0.6;
+}
+
+@media (max-width: 900px) {
+  .main {
+    height: 100vh;
+    background-color: #faf8f6;
+    padding: 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    font-family: "Epilogue", sans-serif;
+    font-weight: 400;
+  }
+  .main-content {
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+  }
+  .title {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+  .main-content-image {
+    width: 50%;
+
+    z-index: 9;
+  }
+  .main-content-stats {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    line-height: 56px;
+    font-size: 48px;
+  }
+  .main-content-testimony {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #172339;
+    margin-top: 20rem;
+    margin-bottom: 6rem;
+    border-radius: 2%;
+    flex-wrap: wrap;
+  }
+
+  .testimony-image {
+    position: relative;
+    top: -18rem;
+    z-index: 99;
+  }
+
+  .pattern-curved-small {
+  }
+
+  .testimony-text {
+    color: white;
+  }
+  .testimony-text-title {
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+    font-size: 48px;
+  }
+
+  .testimony-text-subTitle {
+    font-size: 20px;
+    line-height: 36px;
+  }
 }

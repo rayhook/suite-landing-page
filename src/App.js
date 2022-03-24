@@ -7,6 +7,7 @@ import { ReactComponent as FacebookIcon } from "./assets/icon-facebook.svg";
 import { ReactComponent as InstagramIcon } from "./assets/icon-instagram.svg";
 import { ReactComponent as TwitterIcon } from "./assets/icon-twitter.svg";
 import { ReactComponent as PatternCurved } from "./assets/pattern-curved-line-1.svg";
+import { ReactComponent as PatternCurvedSmall } from "./assets/pattern-curved-line-2.svg";
 
 function App() {
   return (
@@ -52,6 +53,10 @@ function App() {
         <div className="testimony-image">
           <img src={testimony} alt="man writiing" />
         </div>
+        <div className="">
+          <PatternCurvedSmall className="pattern-curved-small" />
+        </div>
+
         <div className="testimony-text">
           <h1 className="testimony-text-title">It just works.</h1>
           <p className="testimony-text-subTitle">
